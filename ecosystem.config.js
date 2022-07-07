@@ -9,11 +9,11 @@ module.exports = {
     production : {
        "user" : "azureuser",
        "host" : ["able-outgoing-dev.westeurope.cloudapp.azure.com"],
-       "ref"  : "origin/master",
+       "ref"  : "origin/main",
        "key" : "~/.ssh/crossinx_user.pem",
        "repo" : "https://github.com/mcremer-able/delpoytest.git",
        "path" : "/home/azureuser/www/deploytest",
        "post-setup" : "npm install"
-    }
+          }
   }
 };
