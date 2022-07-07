@@ -10,8 +10,8 @@ module.exports = {
        "host" : ["able-outgoing-dev.westeurope.cloudapp.azure.com"],
        "ref"  : "origin/master",
        "key" : "~/.ssh/crossinx_user.pem",
-       "repo" : "git@github.com:Username/repository.git",
-       "path" : ".",
+       "repo" : "git@github.com:mcremer-able/deploytest",
+       "path" : "./",
        "post-setup" : "npm install"
     }
   }
