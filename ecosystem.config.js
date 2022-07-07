@@ -12,7 +12,7 @@ module.exports = {
        "ref"  : "origin/master",
        "key" : "~/.ssh/crossinx_user.pem",
        "repo" : "git@github.com:mcremer-able/deploytest",
-       "path" : "/home/azureuser/www/deploytest",
+       "path" : "/home/azureuser/www/deploytest/",
        "post-setup" : "npm install"
     }
   }
