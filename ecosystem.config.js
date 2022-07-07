@@ -14,7 +14,7 @@ module.exports = {
       "repo": "https://github.com/mcremer-able/delpoytest.git",
       "path": "/home/azureuser/www/deploytest",
       "post-deploy": `source ~/.bashrc && \ 
-      npm install && `
+      npm install`
     }
   }
 };
