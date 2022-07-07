@@ -6,7 +6,7 @@ module.exports = {
   // Deployment Configuration
   deploy : {
     production : {
-       "user" : "ubuntu",
+       "user" : "azureuser",
        "host" : ["able-outgoing-dev.westeurope.cloudapp.azure.com"],
        "ref"  : "origin/master",
        "repo" : "git@github.com:Username/repository.git",
