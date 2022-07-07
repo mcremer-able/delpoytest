@@ -13,7 +13,7 @@ module.exports = {
       "key": "~/.ssh/crossinx_user.pem",
       "repo": "https://github.com/mcremer-able/delpoytest.git",
       "path": "/home/azureuser/www/deploytest",
-      "pre-deploy": "npm install"
+      "pre-deploy": "wheris npm"
 
     }
   }
